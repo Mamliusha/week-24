@@ -1,0 +1,42 @@
+.tariffs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 800px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.tar{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    border:1px solid white;
+}
+#tar2{
+    background-color: rgb(228, 217, 117);
+
+}
+#tar1{
+    background-color: coral;
+}
+#tar3{
+    background-color: rgb(138, 255, 80);
+
+}
+#tar4{
+    background-color: rgb(69, 215, 166);
+}
+.tar1{
+    background-color: rgba(0,0,0,0.2);
+    border-bottom:1px solid white;
+    font-size: larger;
+}
+.tar2{
+    font-size: 30px;
+}
+.tar3{
+    background-color: antiquewhite;
+    color: black;
+}
+.tar.pressed {
+    border: 2px solid red;
+  }
